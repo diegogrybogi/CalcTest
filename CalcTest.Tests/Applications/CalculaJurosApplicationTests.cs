@@ -17,8 +17,10 @@ namespace CalcTest.Tests.Applications
         }
 
         [Fact]
-        public async void ShouldCalcularJurosWithSucess()
+        public async void ShouldCalcWithSucess()
         {
+
+
             var valorInicial = 100;
             var meses = 5;
             var total = 105.1;

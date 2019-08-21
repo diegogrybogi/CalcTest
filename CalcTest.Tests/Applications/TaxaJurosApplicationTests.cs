@@ -17,7 +17,7 @@ namespace CalcTest.Tests.Applications
         }
 
         [Fact]
-        public async void ShouldReturnTaxaJurosWithSucess()
+        public async void ShouldReturnValueWithSucess()
         {
             
             var total = 0.01;
