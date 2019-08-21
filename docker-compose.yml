@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  calctest.webapi:
+    image: ${DOCKER_REGISTRY-}calctestwebapi
+    build:
+      context: .
+      dockerfile: CalcTest\Dockerfile

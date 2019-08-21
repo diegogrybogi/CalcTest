@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.WebAPI", "CalcTest\CalcTest.WebAPI.csproj", "{69DF3538-78F3-4E42-9132-227D736DA601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.WebAPI", "CalcTest\CalcTest.WebAPI.csproj", "{69DF3538-78F3-4E42-9132-227D736DA601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Application", "CalcTest.Application\CalcTest.Application.csproj", "{75089FF2-D9E5-4802-B272-504287D17503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.Application", "CalcTest.Application\CalcTest.Application.csproj", "{75089FF2-D9E5-4802-B272-504287D17503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Infraestructure", "CalcTest.Infraestructure\CalcTest.Infraestructure.csproj", "{6338F16E-FDAC-488E-B561-3E7895FB0BC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.Infraestructure", "CalcTest.Infraestructure\CalcTest.Infraestructure.csproj", "{6338F16E-FDAC-488E-B561-3E7895FB0BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Tests", "CalcTest.Tests\CalcTest.Tests.csproj", "{D9EC1DAC-DED2-458F-979D-76DA0BA2E07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.Tests", "CalcTest.Tests\CalcTest.Tests.csproj", "{D9EC1DAC-DED2-458F-979D-76DA0BA2E07A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7AB694A2-CBB8-4A2C-A534-BE7DE7C99EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D9EC1DAC-DED2-458F-979D-76DA0BA2E07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9EC1DAC-DED2-458F-979D-76DA0BA2E07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9EC1DAC-DED2-458F-979D-76DA0BA2E07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB694A2-CBB8-4A2C-A534-BE7DE7C99EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB694A2-CBB8-4A2C-A534-BE7DE7C99EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB694A2-CBB8-4A2C-A534-BE7DE7C99EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB694A2-CBB8-4A2C-A534-BE7DE7C99EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
