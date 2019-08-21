@@ -20,10 +20,10 @@ namespace CalcTest.Tests.Applications
         public async void ShouldReturnValueWithSucess()
         {
             
-            var total = 0.01;
+            var taxa = 0.01;
             var result = await _app.GetTaxaJurosAsync();
 
-            Assert.Equal(result, total);
+            Assert.Equal(result, taxa);
         }
     }
 }
