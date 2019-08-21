@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalcTest.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CalcTest.Controllers.CalculaJurosController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CalcTest.Controllers.CalculaJurosController.#ctor(CalcTest.Infraestructure.Interfaces.ICalculaJurosApplication)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:CalcTest.Controllers.CalculaJurosController.Get(System.Decimal,System.Int32)">
+            <summary>
+            Calcula taxa de juros
+            </summary>
+            <param name="valorInicial"></param>
+            <param name="meses"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalcTest.Controllers.CalculaJurosController.ShowMeTheCode">
+            <summary>
+            Retorna git url
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CalcTest.Controllers.TaxaJurosController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CalcTest.Controllers.TaxaJurosController.#ctor(CalcTest.Infraestructure.Interfaces.ITaxaJurosApplication)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:CalcTest.Controllers.TaxaJurosController.Get">
+            <summary>
+            Retorna taxa de juros
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
